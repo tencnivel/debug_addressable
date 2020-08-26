@@ -2,10 +2,15 @@
 
 Minimalist Unity project to reproduce problems with addressables
 
-## How to reproduce 'Addressable HTTP error 500 on iOS only'
+## How to reproduce 'HTTP/1.1 500 Internal Server Error'
+
+### Prerequisite
+
+Unity 2019.4.8f1
 
 ### Clone the project to your environment
-git clone this project
+
+`git clone this project`
 
 ### Configure the project to your environment
 
@@ -31,7 +36,7 @@ Make sure to use RemoteLoadPath with 'https' because this would not work on iOS.
 
 ### Reproduce the bug on iOS
 
-If you try to reproduce the same steps on iOS as on Android you will get an "HTTP/1.1 500 Internal Server Error"
+If you try to reproduce the same steps on iOS as on Android you will get an "HTTP/1.1 500 Internal Server Error" when pressing the button in the UI
 
 
 
