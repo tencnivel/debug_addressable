@@ -39,6 +39,10 @@ Make sure to use RemoteLoadPath with 'https' because this would not work on iOS.
 If you try to reproduce the same steps on iOS as on Android you will get an "HTTP/1.1 500 Internal Server Error" when pressing the button in the UI.
 The URL of the bundle will be displayed in the error message, you can check that there is no problem with this URL by downloading the bundle with any other mean (eg. wget).
 
+The app may eventually manage to get the addressable, but you then run into another problem: the app will ignore any new version of the catalog.
+
+To summarize: the first download of the addressable is very unstable and if you finally manage to download it, you cannot update it.
+
 
 
 
